@@ -8,7 +8,7 @@
 int main(int argc, char * argv[])
 {
 	string name;
-	if (argc == 1)
+	if (argc > 1)
 	{
 		name = argv[1];
 	}
